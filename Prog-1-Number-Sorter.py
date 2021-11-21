@@ -55,3 +55,16 @@ elif thirdNum > fourthNum > firstNum > secondNum:
 elif thirdNum > fourthNum > secondNum > firstNum:
     print (f"\nDescending order: {thirdNum}, {fourthNum}, {secondNum}, {firstNum} \n")
 
+# six (6) possible results if the fourth number is the highest number
+elif fourthNum > firstNum > secondNum > thirdNum:
+    print (f"\nDescending order: {fourthNum}, {firstNum}, {secondNum}, {thirdNum} \n")
+elif fourthNum > firstNum > thirdNum > secondNum:
+    print (f"\nDescending order: {fourthNum}, {firstNum}, {thirdNum}, {secondNum} \n")
+elif fourthNum > secondNum > firstNum > thirdNum:
+    print (f"\nDescending order: {fourthNum}, {secondNum}, {firstNum}, {thirdNum} \n")
+elif fourthNum > secondNum > thirdNum > firstNum:
+    print (f"\nDescending order: {fourthNum}, {secondNum}, {thirdNum}, {firstNum} \n")
+elif fourthNum > thirdNum > firstNum > secondNum:
+    print (f"\nDescending order: {fourthNum}, {thirdNum}, {firstNum}, {secondNum} \n")
+elif fourthNum > thirdNum > secondNum > firstNum:
+    print (f"\nDescending order: {fourthNum}, {thirdNum}, {secondNum}, {firstNum} \n")
