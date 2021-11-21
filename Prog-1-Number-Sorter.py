@@ -40,3 +40,18 @@ elif secondNum > firstNum > fourthNum > thirdNum:
     print (f"\nDescending order: {secondNum}, {firstNum}, {fourthNum}, {thirdNum} \n")
 elif secondNum > fourthNum > thirdNum > firstNum:
     print (f"\nDescending order: {secondNum}, {fourthNum}, {thirdNum}, {firstNum} \n")
+
+# six (6) possible results if the third number is the highest number
+elif thirdNum > firstNum > secondNum > fourthNum:
+    print (f"\nDescending order: {thirdNum}, {firstNum}, {secondNum}, {fourthNum} \n")
+elif thirdNum > firstNum > fourthNum > secondNum:
+    print (f"\nDescending order: {thirdNum}, {firstNum}, {fourthNum}, {secondNum} \n")
+elif thirdNum > secondNum > firstNum > fourthNum:
+    print (f"\nDescending order: {thirdNum}, {secondNum}, {firstNum}, {fourthNum} \n")
+elif thirdNum > secondNum > fourthNum > firstNum:
+    print (f"\nDescending order: {thirdNum}, {secondNum}, {fourthNum}, {firstNum} \n")
+elif thirdNum > fourthNum > firstNum > secondNum:
+    print (f"\nDescending order: {thirdNum}, {fourthNum}, {firstNum}, {secondNum} \n")
+elif thirdNum > fourthNum > secondNum > firstNum:
+    print (f"\nDescending order: {thirdNum}, {fourthNum}, {secondNum}, {firstNum} \n")
+
