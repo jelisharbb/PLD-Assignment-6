@@ -68,3 +68,7 @@ elif fourthNum > thirdNum > firstNum > secondNum:
     print (f"\nDescending order: {fourthNum}, {thirdNum}, {firstNum}, {secondNum} \n")
 elif fourthNum > thirdNum > secondNum > firstNum:
     print (f"\nDescending order: {fourthNum}, {thirdNum}, {secondNum}, {firstNum} \n")
+
+# if the user entered same numbers
+else:
+    print ("\nOops! Seems like you entered equal numbers. Please try again. \n")
