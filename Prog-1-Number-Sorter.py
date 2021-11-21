@@ -26,3 +26,17 @@ elif firstNum > thirdNum > secondNum > fourthNum:
     print (f"\nDescending order: {firstNum}, {thirdNum}, {secondNum}, {fourthNum} \n")
 elif firstNum > fourthNum > thirdNum > secondNum:
     print (f"\nDescending order: {firstNum}, {fourthNum}, {thirdNum}, {secondNum} \n")
+
+# six (6) possible results if the second number is the highest number
+elif secondNum > firstNum > thirdNum > fourthNum:
+    print (f"\nDescending order: {secondNum}, {firstNum}, {thirdNum}, {fourthNum} \n")
+elif secondNum > thirdNum > fourthNum > firstNum:
+    print (f"\nDescending order: {secondNum}, {thirdNum}, {fourthNum}, {firstNum} \n")
+elif secondNum > fourthNum > firstNum > thirdNum:
+    print (f"\nDescending order: {secondNum}, {fourthNum}, {firstNum}, {thirdNum} \n")
+elif secondNum > thirdNum > firstNum > fourthNum:
+    print (f"\nDescending order: {secondNum}, {thirdNum}, {firstNum}, {fourthNum} \n")
+elif secondNum > firstNum > fourthNum > thirdNum:
+    print (f"\nDescending order: {secondNum}, {firstNum}, {fourthNum}, {thirdNum} \n")
+elif secondNum > fourthNum > thirdNum > firstNum:
+    print (f"\nDescending order: {secondNum}, {fourthNum}, {thirdNum}, {firstNum} \n")
