@@ -66,5 +66,7 @@ elif fourthNum >= secondNum >= thirdNum >= firstNum:
     print (f"\nDescending order: {fourthNum}, {secondNum}, {thirdNum}, {firstNum} \n")
 elif fourthNum >= thirdNum >= firstNum >= secondNum:
     print (f"\nDescending order: {fourthNum}, {thirdNum}, {firstNum}, {secondNum} \n")
-elif fourthNum >= thirdNum >= secondNum >= firstNum:
+else:
     print (f"\nDescending order: {fourthNum}, {thirdNum}, {secondNum}, {firstNum} \n")
+
+# code completed
