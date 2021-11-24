@@ -30,3 +30,14 @@ while not ready:
             elif userReady.title() == "Yes":
                 break
 print("\nYey! Let's start!\n")
+
+# generating random numbers
+from random import randrange
+firstNum = randrange (0,99)
+secondNum = randrange (0,99)
+
+# variables to be used
+number = 1
+items = 10
+correct = 0
+wrong = 0
