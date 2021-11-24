@@ -9,4 +9,24 @@ print ("\nWelcome to Jelisha's Addition Quiz! \nThis is a ten (10) item quiz tha
 
 userName = input("\nPlease enter your name:\n")
 
-ready = input(f"\nHey, {userName}. Are you ready to take the quiz?\n")
+# ask if the user is ready or not using while loops
+userReady = input(f"\nHey, {userName}! Are you ready to take the quiz? (Answer: Yes or No)\n")
+ready = False
+
+while not ready:
+    if userReady.replace(".","",1).title() == "Yes" or userReady.replace("!","",1).title() == "Yes":
+        ready = True
+    while userReady.title() != "Yes":     
+        if userReady.title() == "No":
+            userReady = input(f"\nIt's okay, {userName}. Take your time in pulling yourself together. \n\nAre you ready now to take the quiz? \n")
+            if userReady.title() == "Yes":
+                break
+            elif userReady.title() == "No":
+                break
+        else:
+            userReady = input(f"\nHey, {userName}. This program cannot read your input. Please try again by answering Yes or No.\n\nAre you ready now to take the quiz? \n")
+            if userReady.title() == "No":
+                break
+            elif userReady.title() == "Yes":
+                break
+print("\nYey! Let's start!\n")
