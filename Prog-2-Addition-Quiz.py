@@ -29,13 +29,10 @@ while not ready:
                 break
             elif userReady.title() == "Yes":
                 break
-print("\nYey! Let's start!\n")
+print("\n\nYey! Let's start!\n")
 
 # generating random numbers
 from random import randrange
-firstNum = randrange (0,99)
-secondNum = randrange (0,99)
-systemAns = firstNum + secondNum
 
 # variables to be used
 number = 1
@@ -45,6 +42,9 @@ wrong = 0
 
 # addition quiz starts here
 while number <= items:
+    firstNum = randrange (0,99)
+    secondNum = randrange (0,99)
+    systemAns = firstNum + secondNum
     if number <= items:
         print (f"\nQuestion no. {number}: {firstNum} + {secondNum}")
         userAns = input("\nEnter you answer here: ")
@@ -70,9 +70,9 @@ while number <= items:
                 wrong += 1
                 number += 1
                 if wrong <= 3:
-                    print (f"Nice try, {userName}. The correct answer is {systemAns}")
+                    print (f"Nice try, {userName}. The correct answer is {systemAns}.")
                 elif wrong > 3 and wrong <= 6:
-                    print (f"Unfortunately, you are wrong. The correct answer is {systemAns}")
+                    print (f"Unfortunately, you are wrong. The correct answer is {systemAns}.")
                 elif wrong > 6 and wrong <= 9:
                     print (f"The correct answer is {systemAns}. Try to focus more. You can do it, {userName}!")
 
