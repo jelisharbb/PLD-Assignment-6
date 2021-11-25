@@ -52,6 +52,19 @@ while number <= items:
         # if the user entered a numerical input
         if userAns.isdigit() == True:
 
+            # if the user is correct
+            if int(userAns) == systemAns:
+                correct += 1
+                number += 1
+                if correct <= 3:
+                    print (f"Correct! Good job, {userName}.")
+                elif correct > 3 and correct <= 6:
+                    print (f"Correct! You are amazing, {userName}.")
+                elif correct > 6 and correct <= 9:
+                    print ("Wow! You are great!")
+                elif correct == 10:
+                    None
+
         # if the user entered an alphabet
         elif userAns.isalpha() == True:
             print (f"Hey, {userName}. Please provide numerical input only.")
