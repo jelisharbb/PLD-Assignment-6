@@ -82,3 +82,13 @@ while number <= items:
 
         else:
             print (f"Hey, {userName}. Please provide numerical input only.")
+
+# total scores
+if correct == 10 and wrong == 0:
+    print (f"\nCongratulations, {userName}! You got a score of {correct}/{items}.\n")
+elif correct >= 6 and correct <= 9:
+    print (f"\nYou did a great job, {userName}! You got a score of {correct}/{items}.\n")
+elif correct >= 3 and correct <= 5:
+    print (f"\nYou are cool, {userName}. You got a score of {correct}/{items}.\n")
+else:
+    print (f"\nNice try, {userName}. You got a score of {correct}/{items}.\n")
