@@ -65,6 +65,17 @@ while number <= items:
                 elif correct == 10:
                     None
 
+            # if the user is wrong
+            elif userAns != systemAns:
+                wrong += 1
+                number += 1
+                if wrong <= 3:
+                    print (f"Nice try, {userName}. The correct answer is {systemAns}")
+                elif wrong > 3 and wrong <= 6:
+                    print (f"Unfortunately, you are wrong. The correct answer is {systemAns}")
+                elif wrong > 6 and wrong <= 9:
+                    print (f"The correct answer is {systemAns}. Try to focus more. You can do it, {userName}!")
+
         # if the user entered an alphabet
         elif userAns.isalpha() == True:
             print (f"Hey, {userName}. Please provide numerical input only.")
