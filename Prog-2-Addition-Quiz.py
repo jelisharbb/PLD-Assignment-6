@@ -35,9 +35,26 @@ print("\nYey! Let's start!\n")
 from random import randrange
 firstNum = randrange (0,99)
 secondNum = randrange (0,99)
+systemAns = firstNum + secondNum
 
 # variables to be used
 number = 1
 items = 10
 correct = 0
 wrong = 0
+
+# addition quiz starts here
+while number <= items:
+    if number <= items:
+        print (f"\nQuestion no. {number}: {firstNum} + {secondNum}")
+        userAns = input("\nEnter you answer here: ")
+
+        # if the user entered a numerical input
+        if userAns.isdigit() == True:
+
+        # if the user entered an alphabet
+        elif userAns.isalpha() == True:
+            print (f"Hey, {userName}. Please provide numerical input only.")
+
+        else:
+            print (f"Hey, {userName}. Please provide numerical input only.")
