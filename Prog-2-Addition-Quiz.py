@@ -63,7 +63,7 @@ while number <= items:
                 elif correct > 6 and correct <= 9:
                     print ("\033[92mWow! You are great!\033[0m")
                 elif correct == 10:
-                    None
+                    print ("\033[92mPerfect!\033[0m")
 
             # if the user is wrong
             elif userAns != systemAns:
